@@ -1,6 +1,6 @@
 {
 	"name": "@lihbr/prismic-asset-client",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "A JavaScript + TypeScript client for the Prismic Asset API",
 	"keywords": [
 		"asset",
