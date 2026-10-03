@@ -1,0 +1,63 @@
+{
+	"name": "@lihbr/prismic-asset-client",
+	"version": "0.0.0",
+	"description": "A JavaScript + TypeScript client for the Prismic Asset API",
+	"keywords": [
+		"asset",
+		"client",
+		"cms",
+		"media library",
+		"prismic",
+		"prismic.io",
+		"typescript"
+	],
+	"license": "MIT",
+	"author": "Lucie Haberer <hello@lihbr.com> (https://lihbr.com)",
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.com/lihbr/prismic-asset-client.git"
+	},
+	"files": [
+		"./dist",
+		"./src"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.cts",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./package.json": "./package.json"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "tsdown",
+		"dev": "tsdown --watch",
+		"format": "oxfmt",
+		"prepare": "npm run build",
+		"lint": "oxlint --deny-warnings",
+		"types": "tsc --noEmit",
+		"unit": "vitest run --coverage",
+		"unit:watch": "vitest watch",
+		"test": "npm run lint && npm run types && npm run unit && npm run build"
+	},
+	"devDependencies": {
+		"@prismicio/e2e-tests-utils": "^1.20.0",
+		"@types/node": "^26.6.4",
+		"@vitest/coverage-v8": "^5.0.3",
+		"oxfmt": "^0.71.0",
+		"oxlint": "^1.86.0",
+		"tsdown": "^0.23.0",
+		"typescript": "^7.0.2",
+		"vitest": "^5.0.3"
+	},
+	"engines": {
+		"node": ">=22"
+	}
+}
