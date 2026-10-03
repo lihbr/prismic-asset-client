@@ -3,7 +3,7 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 
-A JavaScript and TypeScript client for the [Prismic][prismic] [Asset API][asset-api-docs], following [`@prismicio/client`][prismicio-client] conventions.
+A JavaScript and TypeScript client for the [Prismic][prismic] [Asset API][asset-api-docs].
 
 > [!NOTE]
 > This is a community package. Prismic does not maintain or support it.
@@ -76,7 +76,6 @@ See [CONTRIBUTING.md][contributing] to set up the project.
 
 [prismic]: https://prismic.io
 [asset-api-docs]: https://prismic.io/docs/asset-api-technical-reference
-[prismicio-client]: https://github.com/prismicio/prismic-client
 [contributing]: ./CONTRIBUTING.md
 [license]: ./LICENSE
 [repo-bug-report]: https://github.com/lihbr/prismic-asset-client/issues/new?assignees=&labels=bug&template=bug_report.md&title=
