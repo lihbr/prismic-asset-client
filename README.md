@@ -60,11 +60,11 @@ client.getUploaders()                         // GET /uploaders → { id }[]
 
 Bug reports, ideas, and pull requests are welcome.
 
-**Reporting a bug**: [Open an issue][repo-bug-report] explaining your application's setup and the bug you're encountering.
+**Reporting a bug**: [Open an issue][repo-issue] explaining your application's setup and the bug you're encountering.
 
-**Suggesting an improvement**: [Open an issue][repo-feature-request] explaining your improvement or feature so we can discuss and learn more.
+**Suggesting an improvement**: [Open an issue][repo-issue] explaining your improvement or feature so we can discuss and learn more.
 
-**Submitting code changes**: For small fixes, feel free to [open a pull request][repo-pull-requests] with a description of your changes. For large changes, please first [open an issue][repo-feature-request] so we can discuss if and how the changes should be implemented.
+**Submitting code changes**: For small fixes, feel free to [open a pull request][repo-pull-requests] with a description of your changes. For large changes, please first [open an issue][repo-issue] so we can discuss if and how the changes should be implemented.
 
 See [CONTRIBUTING.md][contributing] to set up the project.
 
@@ -78,8 +78,7 @@ See [CONTRIBUTING.md][contributing] to set up the project.
 [asset-api-docs]: https://prismic.io/docs/asset-api-technical-reference
 [contributing]: ./CONTRIBUTING.md
 [license]: ./LICENSE
-[repo-bug-report]: https://github.com/lihbr/prismic-asset-client/issues/new?assignees=&labels=bug&template=bug_report.md&title=
-[repo-feature-request]: https://github.com/lihbr/prismic-asset-client/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=
+[repo-issue]: https://github.com/lihbr/prismic-asset-client/issues/new
 [repo-pull-requests]: https://github.com/lihbr/prismic-asset-client/pulls
 
 <!-- Badges -->

@@ -1,6 +1,6 @@
 # Contributing
 
-This package is maintained by [lihbr](https://lihbr.com). It is a community package, not maintained by Prismic. Ask for help by [opening an issue](https://github.com/lihbr/prismic-asset-client/issues/new/choose), or request a review by opening a pull request.
+This package is maintained by [lihbr](https://lihbr.com). It is a community package, not maintained by Prismic. Ask for help by [opening an issue](https://github.com/lihbr/prismic-asset-client/issues/new), or request a review by opening a pull request.
 
 ## Setup
 
