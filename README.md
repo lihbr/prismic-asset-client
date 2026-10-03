@@ -14,7 +14,7 @@ A JavaScript and TypeScript client for the [Prismic][prismic] [Asset API][asset-
 npm install @lihbr/prismic-asset-client
 ```
 
-## Usage
+## Documentation
 
 ```ts
 import {
